@@ -1,0 +1,15 @@
+{
+    "name": "api-sdk-demo-root",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "pnpm -r build",
+        "test": "pnpm -r test",
+        "lint": "pnpm -r lint"
+    },
+    "workspaces": [
+        "apps/*",
+        "libs/*"
+    ],
+    "packageManager": "pnpm@9.1.0"
+}
